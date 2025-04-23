@@ -12,4 +12,6 @@
 
 * maybekoi (me!) - codd
 
+* my friends and bark (who isnt my friend) - existing
+
 * ninjamuffin99 - [The ninja_muffin99 Twitter.com experience 2018 (go play on nwewgorudns)](https://www.newgrounds.com/portal/view/712672)
