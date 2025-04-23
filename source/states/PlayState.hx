@@ -168,6 +168,20 @@ class PlayState extends FlxState
 			]
 		});
 
+		conversations.set("barkingchimp", {
+			userMessages: [
+				"yo bark.",
+				"dawg wtf",
+				"okay bro I'm blocking you"
+			],
+			responses: [
+				"n-word hard r",
+				"n-word hard r",
+				"n-word hard r",
+				"n-word hard r"
+			]
+		});
+
 		userResponses = new Map<String, UserResponses>();
 		userResponses.set("AD1340", {
 			username: "AD1340",
@@ -220,6 +234,17 @@ class PlayState extends FlxState
 				"WHAT NO IM NOT",
 				"insert gif here",
 				"BAIII"
+			]
+		});
+
+		userResponses.set("barkingchimp", {
+			username: "barkingchimp",
+			avatar: "assets/images/avatars/bark.png",
+			responses: [
+				"n-word hard r",
+				"n-word hard r",
+				"n-word hard r",
+				"n-word hard r"
 			]
 		});
 
@@ -289,6 +314,10 @@ class PlayState extends FlxState
 		var futureWife = new DMListSprite(80, startY + spacing * 3, "JUP!T3R", "assets/images/avatars/wifey.png");
 		dmList.push(futureWife);
 		add(futureWife);
+
+		var bark = new DMListSprite(80, startY + spacing * 4, "barkingchimp", "assets/images/avatars/bark.png");
+		dmList.push(bark);
+		add(bark);
 
 		for (dm in dmList) {
 			if (dm.username != null) {
